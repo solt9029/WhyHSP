@@ -1,0 +1,7 @@
+#module
+	#defcfunc constValueFunction
+		gsel 0
+		return 200
+#global
+
+boxf constValueFunction() - 100, constValueFunction() - 100, constValueFunction(), constValueFunction()
